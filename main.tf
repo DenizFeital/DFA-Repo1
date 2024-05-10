@@ -6,7 +6,7 @@ terraform {
         }
     }
 backend "azurerm" {
-    resource_group_name = "cloud-shell-storage-eastus"
+    resource_group_name = "DFA-DNS_group"
     storage_account_name = "dfatf"
     container_name = "dfacontainertf"
     key = "abc.dfakeyfile"
