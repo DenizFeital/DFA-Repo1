@@ -18,6 +18,6 @@ provider "azurerm" {
 }
 #Create Resource Group!!
 resource "azurerm_resource_group" "DFA-RG-ABC" {
-  name = "DFA-RG-ABC"
+  name = "DFA-RG-ABC2"
   location = "eastus"
 }
